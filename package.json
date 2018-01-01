@@ -1,0 +1,24 @@
+{
+  "name": "test-package-64",
+  "version": "0.1.0",
+  "description": "test-description",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "zoroaster test/spec",
+    "test-watch": "zoroaster test/spec --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sobesednik/test-package-64.git"
+  },
+  "keywords": ["test-package-64"],
+  "author": "Anton <anton@sobes.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sobesednik/test-package-64/issues"
+  },
+  "homepage": "https://github.com/Sobesednik/test-package-64#readme",
+  "devDependencies": {
+    "zoroaster": "0.4.6"
+  }
+}
